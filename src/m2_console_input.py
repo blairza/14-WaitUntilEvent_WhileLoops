@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Zane Blair.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -31,9 +31,12 @@ def double_a_float():
          -6.28
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    x = input('Enter a number:')
+    y = float(x)
+    print(2*y)
 
 
 def print_an_integer_many_times():
@@ -62,9 +65,13 @@ def print_an_integer_many_times():
          10
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    x = input('Enter a number:')
+    y = int(x)
+    for k in range(y):
+        print(2*y)
 
 
 def print_an_integer_many_times_on_one_row():
@@ -81,12 +88,16 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # -------------------------------------------------------------------------
+    x = input('Enter a number:')
+    y = int(x)
+    z = str(2*y)
+    print(z*y)
 
 
 def input_it_all():
@@ -121,9 +132,18 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    x = input('Enter a float number:')
+    y = input('Enter a number:')
+    z = input('Enter a word or phrase:')
+    X = float(x)
+    Y = int(y)
+    for k in range(Y):
+        print(X**0.5)
+    for k in range(Y):
+        print(z)
 
 
 # -----------------------------------------------------------------------------
